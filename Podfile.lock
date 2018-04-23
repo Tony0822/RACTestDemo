@@ -1,0 +1,38 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GCYBase (0.1.4)
+
+DEPENDENCIES:
+  - AFNetworking
+  - GCYBase (from `https://github.com/Tony0822/GCYBase.git`)
+
+EXTERNAL SOURCES:
+  GCYBase:
+    :git: https://github.com/Tony0822/GCYBase.git
+
+CHECKOUT OPTIONS:
+  GCYBase:
+    :commit: f91dbf3a69f403b1b40fc7d3ba1e1ee8c58812eb
+    :git: https://github.com/Tony0822/GCYBase.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GCYBase: c4423f598df87ce6c384ba948e3536250b66c9cd
+
+PODFILE CHECKSUM: dd6e6195cc208b89484adeb7c0dd8ece5917d7f2
+
+COCOAPODS: 1.2.1
